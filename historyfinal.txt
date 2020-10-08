@@ -1,0 +1,115 @@
+    1  sudo apt install git gitk git-email
+    2  git config --global user.name "Mehdi"
+    3  git congig --global user.email mehdirhachide@gmail.com
+    4  git config --global user.email mehdirhachide@gmail.com
+    5  mkadir lab2
+    6  mkdir lab2
+    7  ls
+    8  rm -r lab2
+    9  cd Bureau
+   10  mkdir lab2
+   11  ls
+   12  cd lab2
+   13  gedit rhachide.txt
+   14  ls
+   15  cat rhachide.txt 
+   16  vim rhachide.txt 
+   17  git init
+   18  git status
+   19  git add rhachide.txt 
+   20  git status
+   21  git commit -m "Hello"
+   22  git remote add origin https://github.com/rhachide/testlab2.git
+   23  git branch -M main
+   24  git push -u origin main
+   25  ls
+   26  git status
+   27  ls
+   28  git pull
+   29  ls
+   30  cd
+   31  git clone https://github.com/rhachide/testlab2.git
+   32  ls
+   33  cd testlab2/
+   34  ls
+   35  git clone https://github.com/khachicha/5AS05-partie3.git
+   36  ls
+   37  rm -rf 5AS05-partie3/
+   38  CD..
+   39  cd ..
+   40  git clone https://github.com/khachicha/5AS05-partie3.git
+   41  ls
+   42  rm -rf 5AS05-partie3/
+   43  ls
+   44  cd Bureau/
+   45  git clone https://github.com/khachicha/5AS05-partie3.git
+   46  ls
+   47  mkdir lab4
+   48  cd lab4
+   49  ls
+   50  git clone https://github.com/khachicha/5AS05-partie4.git
+   51  history
+   52  ls
+   53  cd 5AS05-partie4
+   54  ls
+   55  cd sardar
+   56  ls
+   57  cat sardar
+   58  cd ..
+   59  cat sardar
+   60  cat sardar/* > sardar_power.txt
+   61  cd sardar_power.txt
+   62  ls
+   63  wc sardar_power.txt
+   64  grep -i singh sardar_power.txt
+   65  grep -ri singh sardar_power.txt
+   66  rm sardar_power.txt
+   67  ls
+   68  grep -i singh sardar/*
+   69  grep -i singh sardar/* | wc -l
+   70  grep -i santa singh sardar/* | wc -l
+   71  grep -i singh sardar/* | grep -i santa sardar/*  | wc -l
+   72  grep -i santa and  singh sardar/* | wc -l
+   73  grep -i santa &  singh sardar/* | wc -l
+   74  grep -i singh sardar/* | grep -i santa sardar/*  | wc -l
+   75  grep -i singh sardar/* | wc -l | grep -i santa sardar/*  | wc -l
+   76* grep -i singh sardar/* 
+   77  cat sardar/* | grep -i singh | wc -l
+   78  grep -i singh sardar/* | grep -i santa sardar/*  
+   79  fgrep -i singh sardar/* | fgrep -i santa sardar/*  
+   80  fgrep -i singh | fgrep -i santa sardar/*  
+   81  fgrep -i singh sardar/* | fgrep -i santa 
+   82  fgrep -i singh sardar/* | fgrep -i santa | wc -l
+   83  fgrep -i singh sardar/* | fgrep -i santa | grep -vl banta  | wc -l
+   84  fgrep -i singh sardar/* | fgrep -i santa | fgrep -vl banta  | wc -l
+   85  fgrep -i singh sardar/* | fgrep -i santa | fgrep -vi banta  | wc -l
+   86  grep -i singh sardar/* | grep -i santa | grep -vi banta  | wc -l
+   87  ls *.txt
+   88  ls
+   89  cd sardar
+   90  ls
+   91  cd..
+   92  ls
+   93  cd..
+   94  cd ..
+   95  ls
+   96  ls *.txt
+   97  cp answering-machine.txt test-commande-locate.txt
+   98  ls
+   99  locate test-commande-locate.txt 
+  100  ls
+  101  locate test-commande-locate.txt 
+  102  cd ..
+  103  locate test-commande-locate.txt 
+  104  sudo updatedb
+  105  locate test-commande-locate.txt 
+  106  ls
+  107  cd 5AS05-partie4/
+  108  ls
+  109  diff noyau.v1 noyau.v2
+  110  diff noyau.v1 noyau.v2 > update.patch
+  111  patch noyau.v1 update.patch
+  112  diff noyau.v1 noyau.v2
+  113  history > history.txt
+  114  history 
+  115  history > history.txt

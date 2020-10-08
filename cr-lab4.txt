@@ -1,0 +1,32 @@
+question 1 : git clone https://github.com/khachicha/5AS05-partie4.git
+question 2 : hystory 
+question 3 : history > history.txt
+question 4 : cat sardar/* > sardar_power.txt
+question 5 : wc sardar_power.txt // resultat : 1980 (lignes)  16783 (mots) 101780 (caractéres) dans le fichier sardar_power.txt
+question 6 :grep -i singh sardar_power.txt
+question 7 : rm sardar_power.txt
+question 8 : grep -i singh sardar/*
+question 9 :grep -i singh sardar/* | wc -l ( on trouve 123 lignes ) 
+question 10 : grep -i singh sardar/* | grep -i santa | wc -l ( on trouve 42 lignes ) 
+question 11 : grep -i singh sardar/* | grep -i santa | grep -vi banta  | wc -l ( on trouve 26 lignes ) 
+question 12 : ls *.txt
+question 13 : cp answering-machine.txt test-commande-locate.txt ( on voit que rien ne s'affiche car le fichier n'est pas encore indexé ) 
+question 14 : aprés avoir mis a jour la base de donnée avec sudo updatedb maintenant on a bien l'emplaement de notre fichier (/home/rhachide/Bureau/lab4/5AS05-partie4/test-commande-locate.txt ) 
+question 15 : diff noyau.v1 noyau.v2 (
+25,26c25,26
+< PATCHLEVEL = 01 (ligne 25 noyau v1)
+< SUBLEVEL = -rc1 (ligne 26 noyau v1) 
+---
+> PATCHLEVEL = 02 (ligne 25 noyau v2)
+> SUBLEVEL = -rc2 (ligne 25 noyau v1)
+54c54
+< export	SHELL CC GCC (ligne 54 noyau v1)
+---
+> export	SHELL (ligne 54 noyau v2)   )
+on voit bien une diff entre les deux noyaux dans les lignes 25,26 et 54 
+question 16 : diff noyau.v1 noyau.v2 > update.patch
+    patch noyau.v1 update.patch
+( aprés avoir fait ça, en éxecutant la commande sur la question 15 on ne trouve pas de diff entre les deux noyaux 
+
+
+
